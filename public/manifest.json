@@ -3,12 +3,13 @@
   "short_name": "MakaraPati",
   "description": "Makara Pati kedi oyun evi ve pati dostları için doğal, dayanıklı ürünler.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#111111",
   "icons": [
     {
-      "src": "/images/logo.jpg",
+      "src": "https://makarapati.com/images/logo.jpg",
       "sizes": "512x512",
       "type": "image/jpeg"
     }
