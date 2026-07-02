@@ -37,9 +37,14 @@ export default function Hero() {
             Makara Pati
           </h1>
           
-          <p className="text-2xl md:text-3xl font-medium text-white/80 max-w-3xl mx-auto mb-12 leading-tight">
-            Patili dostlar için özel ürünler
-          </p>
+          <div className="mb-12">
+            <p className="text-2xl md:text-3xl font-medium text-white/80 max-w-3xl mx-auto mb-2 leading-tight">
+              Patili dostlar için özel ürünler
+            </p>
+            <p className="text-xl md:text-2xl font-bold text-primary tracking-[0.2em] uppercase">
+              Patilere Değen Tasarım
+            </p>
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-4xl mx-auto">
             <Link href="#products" className="flex-1">
