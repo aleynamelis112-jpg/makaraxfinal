@@ -8,7 +8,7 @@ import { getWhatsAppUrl, STORE_INFO } from '@/lib/constants';
 import { Instagram, MessageCircle } from 'lucide-react';
 
 export default function Hero() {
-  const instagramUrl = `https://instagram.com/${STORE_INFO.instagram.replace('@', '')}`;
+  const instagramUrl = https://instagram.com/${STORE_INFO.instagram.replace('@', '')};
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center pt-32 pb-20 overflow-hidden">
@@ -20,11 +20,12 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 text-center z-10">
         <div className="animate-fade-in flex flex-col items-center">
-          {/* Main Logo Image - 70px Height */}
+
+          {/* Main Logo Image */}
           <div className="relative h-[70px] w-auto mb-12 flex items-center justify-center">
-            <Image 
-              src="/images/logo.jpg" 
-              alt="Makara Pati Logo" 
+            <Image
+              src="/images/logo.jpg"
+              alt="Makara Pati Logo"
               height={70}
               width={210}
               className="h-[70px] w-auto object-contain drop-shadow-2xl"
@@ -33,42 +34,22 @@ export default function Hero() {
             />
           </div>
 
+          {/* Main Title */}
           <h1 className="text-5xl md:text-8xl font-black mb-6 tracking-tighter text-white">
             Makara Pati
           </h1>
-          
+
           <div className="mb-12">
+
+            {/* Main Description */}
             <p className="text-2xl md:text-3xl font-medium text-white/80 max-w-3xl mx-auto mb-2 leading-tight">
               Patili dostlar için özel ürünler
             </p>
+
+            {/* Slogan */}
             <p className="text-xl md:text-2xl font-bold text-primary tracking-[0.2em] uppercase">
               Patilere Değen Tasarım
             </p>
-          </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-4xl mx-auto">
-            <Link href="#products" className="flex-1">
-              <Button size="lg" className="w-full bg-white text-black hover:bg-white/90 rounded-2xl py-8 text-lg font-bold btn-premium">
-                Ürünleri İncele
-              </Button>
-            </Link>
-
-            <Link href={instagramUrl} target="_blank" className="flex-1">
-              <Button size="lg" className="w-full bg-gradient-to-tr from-orange-500 via-pink-600 to-purple-600 text-white hover:opacity-90 rounded-2xl py-8 text-lg font-bold shadow-xl border-none">
-                <Instagram className="mr-2" size={24} />
-                Instagram Sayfamız
-              </Button>
-            </Link>
-            
-            <Link href={getWhatsAppUrl()} target="_blank" className="flex-1">
-              <Button size="lg" variant="outline" className="w-full border-primary text-primary hover:bg-primary/10 rounded-2xl py-8 text-lg font-bold">
-                <MessageCircle className="mr-2" size={24} />
-                WhatsApp
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+            {/* Brand Information */}
+            <p class
